@@ -57,3 +57,4 @@ Commands may differ depending on the exercise structure.
 ## Note
 
 These exercises were completed for learning and practice during the training program.
+
