@@ -1,56 +1,90 @@
-# Digital Nurture 4.0 - Java FSE Hands-On
+﻿# Digital Nurture 4.0 - Java Full Stack Engineer
 
-This repository contains my hands-on work for the Digital Nurture 4.0 Java Full Stack Engineer training.
+This repository contains the hands-on exercises I completed during the Digital Nurture 4.0 Java Full Stack Engineer program.
 
-I have arranged the exercises week-wise so that they are easier to find and run.
+I have arranged the exercises week by week so that they are easier to understand and run.
 
 ## Topics Covered
 
-### Week 1
-- Design Patterns and Principles
+- Design Patterns
 - Data Structures and Algorithms
-- PL/SQL Programming
-
-### Week 2
+- PL/SQL
 - JUnit
 - Mockito
-- Logging
-- Spring Core
+- SLF4J Logging
 - Maven
-
-### Week 3
+- Spring Core
 - Spring Data JPA
 - Hibernate
-
-### Week 4
+- Spring Boot
 - Spring REST
 - JWT Authentication
 
-## Technologies Used
+## Folder Structure
 
-- Java
-- Maven
+```text
+Digital-Nurture-4.0-JavaFSE/
+├── Week-01/
+├── Week-02/
+├── Week-03/
+└── Week-04/
+
+@'
+# Digital Nurture 4.0 - Java Full Stack Engineer
+
+This repository contains the hands-on exercises I completed during the Digital Nurture 4.0 Java Full Stack Engineer program.
+
+I have arranged the exercises week by week so that they are easier to understand and run.
+
+## Topics Covered
+
+- Design Patterns
+- Data Structures and Algorithms
+- PL/SQL
 - JUnit
 - Mockito
-- SLF4J and Logback
-- Spring Framework
-- Spring Boot
+- SLF4J Logging
+- Maven
+- Spring Core
 - Spring Data JPA
 - Hibernate
-- SQL and PL/SQL
+- Spring Boot
+- Spring REST
+- JWT Authentication
 
-## How to Run
+## Folder Structure
 
-Go to the required exercise folder and check its README file.
+```text
+Digital-Nurture-4.0-JavaFSE/
+├── Week-01/
+├── Week-02/
+├── Week-03/
+└── Week-04/
 
-Most Java exercises can be tested using:
+Each exercise folder contains the source code, configuration files, and a README with basic information about the task.
 
-```bash
+Tools Used
+Java
+Maven
+Spring Framework
+Spring Boot
+JUnit
+Mockito
+MySQL
+Git
+IntelliJ IDEA / Eclipse / VS Code
+Running the Projects
+
+For Maven projects, open the exercise folder and run:
+
 mvn clean test
-```
 
-For the PL/SQL exercises, run the SQL files using an Oracle SQL tool.
+For Spring Boot projects, use:
 
-## Note
+mvn spring-boot:run
 
-This repository is mainly for keeping track of the exercises I completed during the training.
+Some programs can also be run directly using their main class.
+
+About
+
+This repository is mainly for storing my practice exercises and tracking the work completed during the training program.
