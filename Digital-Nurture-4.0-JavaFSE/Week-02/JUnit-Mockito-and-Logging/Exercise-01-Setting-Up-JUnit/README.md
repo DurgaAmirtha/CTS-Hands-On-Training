@@ -1,13 +1,13 @@
 # Setting Up JUnit Testing
 
-## Objective
-This exercise demonstrates basic configuration of JUnit. It sets up a simple testing class to verify dependencies.
+## About the Exercise
+In this exercise, I worked on setting up JUnit. I set up a simple testing class to verify dependencies.
 
 ## Files
-*   `pom.xml` – Maven configuration file containing project dependencies
-*   `SetupTest.java` – Verification test checking basic JUnit configurations
+* `pom.xml` – Maven file containing dependencies and build settings
+* `SetupTest.java` – Verification test checking basic JUnit configurations
 
-## Approach
+## My Approach
 I created a simple test class with a test method using JUnit's @Test annotation.
 
 ## How to Run
@@ -15,8 +15,8 @@ I created a simple test class with a test method using JUnit's @Test annotation.
 mvn clean test
 ```
 
-## Result
-The tests compile and run, logging that JUnit setup has been verified successfully.
+## Output
+The tests compile and run, logging that JUnit setup has been verified .
 
-## What I Learned
+## What I Understood
 I learned how to add basic testing dependencies to a project's pom.xml.

@@ -1,14 +1,14 @@
 # Creating a Maven Spring Project
 
-## Objective
-This exercise demonstrates basic Maven configurations for Spring context, core, and AOP modules.
+## About the Exercise
+In this exercise, I worked on basic Maven configurations for Spring context, core, and AOP modules.
 
 ## Files
-*   `App.java` – Core Java starter class
-*   `AppTest.java` – Core Java configuration checks
-*   `pom.xml` – Maven configuration file containing project dependencies
+* `App.java` – Core Java starter class
+* `AppTest.java` – test class
+* `pom.xml` – Maven file containing dependencies and build settings
 
-## Approach
+## My Approach
 I added the required dependency entries for Spring context, core, and AOP inside pom.xml and checked compilation.
 
 ## How to Run
@@ -16,8 +16,8 @@ I added the required dependency entries for Spring context, core, and AOP inside
 mvn clean test
 ```
 
-## Result
-Maven retrieves the dependencies and compiles the source files without issues.
+## Output
+Maven downloads the dependencies and compiles the source files without issues.
 
-## What I Learned
+## What I Understood
 I learned how to configure and build Spring dependencies inside a Maven project.

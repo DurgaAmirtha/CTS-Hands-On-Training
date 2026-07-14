@@ -1,20 +1,20 @@
 # Spring Data JPA CRUD
 
-## Objective
-This exercise demonstrates basic database operations using Spring Data JPA and H2 database.
+## About the Exercise
+In this exercise, I worked on basic database operations using Spring Data JPA and H2 database.
 
 ## Files
-*   `application.properties` – H2 database and port property setups
-*   `Country.java` – JPA Country database entity mapper
-*   `CountryNotFoundException.java` – Entity missing custom runtime exception class
-*   `CountryRepository.java` – JPA Country database repository interface
-*   `CountryService.java` – Transactional database query handling service
-*   `data.sql` – SQL seeding queries script
-*   `OrmLearnApplication.java` – Spring Boot application core setup
-*   `OrmLearnApplicationTests.java` – JPA CRUD transaction integration test
-*   `pom.xml` – Maven configuration file containing project dependencies
+* `application.properties` – H2 database and port property setups
+* `Country.java` – JPA Country entity class
+* `CountryNotFoundException.java` – custom exception used when a record is not found
+* `CountryRepository.java` – JPA Country database repository interface
+* `CountryService.java` – service class for database operations
+* `data.sql` – SQL seeding queries script
+* `OrmLearnApplication.java` – Spring Boot application main class
+* `OrmLearnApplicationTests.java` – JPA CRUD transaction integration test
+* `pom.xml` – Maven file containing dependencies and build settings
 
-## Approach
+## My Approach
 I created a JPA entity with annotations, extended JpaRepository, and configured an in-memory H2 connection.
 
 ## How to Run
@@ -22,8 +22,8 @@ I created a JPA entity with annotations, extended JpaRepository, and configured 
 mvn clean test
 ```
 
-## Result
-The application boots, seeds data from data.sql, and runs CRUD queries using JPA.
+## Output
+The application starts, seeds data from data.sql, and runs CRUD queries using JPA.
 
-## What I Learned
-I learned how Spring Data JPA reduces database boilerplates.
+## What I Understood
+I learned how Spring Data JPA reduces repeated database code.

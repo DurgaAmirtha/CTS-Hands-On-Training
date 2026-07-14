@@ -1,14 +1,14 @@
 # Singleton Pattern Logger
 
-## Objective
-This exercise demonstrates the Singleton design pattern. The logger class allows only one object to be created and returns the same object whenever it is requested.
+## About the Exercise
+In this exercise, I worked on the Singleton design pattern. The logger class allows only one object to be created and returns the same object whenever it is requested.
 
 ## Files
-*   `Logger.java` – Logger class implementing Singleton pattern
-*   `LoggerTest.java` – Unit test verifying the Singleton implementation
-*   `pom.xml` – Maven configuration file containing project dependencies
+* `Logger.java` – Logger class implementing Singleton pattern
+* `LoggerTest.java` – Unit test verifying the Singleton implementation
+* `pom.xml` – Maven file containing dependencies and build settings
 
-## Approach
+## My Approach
 The constructor is private so that the class cannot be instantiated from outside. A static method returns the single logger instance.
 
 ## How to Run
@@ -16,8 +16,8 @@ The constructor is private so that the class cannot be instantiated from outside
 mvn clean test
 ```
 
-## Result
-The application retrieves two logger instances and asserts that both references point to the exact same object in memory.
+## Output
+The test creates two logger instances and asserts that both references point to the exact same object in memory.
 
-## What I Learned
+## What I Understood
 I learned how a private constructor and a static instance can be used to control object creation.

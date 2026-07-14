@@ -1,15 +1,15 @@
 # Create Spring Boot Web Project
 
-## Objective
+## About the Exercise
 This exercise bootstraps a basic Spring Boot MVC web application.
 
 ## Files
-*   `application.properties` – H2 database and port property setups
-*   `pom.xml` – Maven configuration file containing project dependencies
-*   `SpringLearnApplication.java` – Spring Boot main starter configuration class
-*   `SpringLearnApplicationTests.java` – Integration tests validating web server boots successfully
+* `application.properties` – H2 database and port property setups
+* `pom.xml` – Maven file containing dependencies and build settings
+* `SpringLearnApplication.java` – Spring Boot main application class
+* `SpringLearnApplicationTests.java` – Integration tests validating web server boots
 
-## Approach
+## My Approach
 I created a Spring Boot application class using web starter configurations in pom.xml.
 
 ## How to Run
@@ -17,8 +17,8 @@ I created a Spring Boot application class using web starter configurations in po
 mvn clean test
 ```
 
-## Result
-Spring Boot launches the Tomcat web server and starts the application context successfully.
+## Output
+The application starts the Tomcat web server and starts the application context .
 
-## What I Learned
-I learned how Spring Boot handles autoconfigurations for web projects.
+## What I Understood
+I learned how Spring Boot handles automatic configuration for web projects.

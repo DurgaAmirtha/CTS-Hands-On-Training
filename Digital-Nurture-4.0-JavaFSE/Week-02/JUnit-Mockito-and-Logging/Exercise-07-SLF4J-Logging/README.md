@@ -1,15 +1,15 @@
 # SLF4J and Logback Logging
 
-## Objective
-This exercise demonstrates application logging. It configures Logback levels to filter messages.
+## About the Exercise
+In this exercise, I worked on application logging. It configures Logback levels to filter messages.
 
 ## Files
-*   `logback.xml` – Logback configuration defining appenders and logs hierarchy
-*   `LoggingExample.java` – Standard logger output operations
-*   `LoggingExampleTest.java` – Verification tests displaying logged console statements
-*   `pom.xml` – Maven configuration file containing project dependencies
+* `logback.xml` – Logback configuration defining appenders and logs hierarchy
+* `LoggingExample.java` – Standard logger output operations
+* `LoggingExampleTest.java` – test class for checking log output
+* `pom.xml` – Maven file containing dependencies and build settings
 
-## Approach
+## My Approach
 I added SLF4J logger calls inside the class and created a logback.xml file to specify formats and level configurations.
 
 ## How to Run
@@ -17,8 +17,8 @@ I added SLF4J logger calls inside the class and created a logback.xml file to sp
 mvn clean test
 ```
 
-## Result
-Running tests prints logs to the console showing INFO, WARN, and ERROR messages with custom formats.
+## Output
+The test output shows logs to the console showing INFO, WARN, and ERROR messages with custom formats.
 
-## What I Learned
+## What I Understood
 I learned how Logback formats and levels filter log outputs.

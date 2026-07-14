@@ -1,60 +1,56 @@
-# Digital Nurture 4.0 – Java FSE Hands-On
+# Digital Nurture 4.0 - Java FSE Hands-On
 
-This repository contains the hands-on exercises I completed as part of the Digital Nurture 4.0 Java Full Stack Engineer training program.
+This repository contains my hands-on work for the Digital Nurture 4.0 Java Full Stack Engineer training.
 
-The exercises are organized by week and topic.
+I have arranged the exercises week-wise so that they are easier to find and run.
 
-## Repository Contents
+## Topics Covered
 
 ### Week 1
-
-#### Design Patterns and Principles
-
-* Singleton Pattern
-* Factory Method Pattern
-
-#### Data Structures and Algorithms
-
-* E-commerce Search
-* Financial Forecasting
+- Design Patterns and Principles
+- Data Structures and Algorithms
+- PL/SQL Programming
 
 ### Week 2
-
-Contains exercises related to testing, logging, Maven, and Spring Core.
+- JUnit
+- Mockito
+- Logging
+- Spring Core
+- Maven
 
 ### Week 3
-
-Contains hands-on work related to Spring Data JPA and Hibernate.
+- Spring Data JPA
+- Hibernate
 
 ### Week 4
-
-Contains hands-on work related to Spring REST.
+- Spring REST
+- JWT Authentication
 
 ## Technologies Used
 
-* Java
-* Maven
-* JUnit
-* Mockito
-* Spring Framework
-* Spring Boot
-* Spring Data JPA
-* Hibernate
-* SQL
+- Java
+- Maven
+- JUnit
+- Mockito
+- SLF4J and Logback
+- Spring Framework
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- SQL and PL/SQL
 
-## Running the Exercises
+## How to Run
 
-Open the required exercise folder and follow the instructions in its README.
+Go to the required exercise folder and check its README file.
 
-For Maven projects, use:
+Most Java exercises can be tested using:
 
 ```bash
 mvn clean test
 ```
 
-Commands may differ depending on the exercise structure.
+For the PL/SQL exercises, run the SQL files using an Oracle SQL tool.
 
 ## Note
 
-These exercises were completed for learning and practice during the training program.
-
+This repository is mainly for keeping track of the exercises I completed during the training.

@@ -1,16 +1,16 @@
 # Spring Setter Injection
 
-## Objective
-This exercise demonstrates Setter Dependency Injection. It injects a repository bean into a service bean.
+## About the Exercise
+In this exercise, I worked on Setter Dependency Injection. It injects a repository bean into a service bean.
 
 ## Files
-*   `applicationContext.xml` – XML schema declaring Spring IoC bean definitions
-*   `BookRepository.java` – Data access repository bean class
-*   `BookService.java` – Business service bean class
-*   `LibraryManagementTest.java` – Integration test validating Spring Context loads and runs
-*   `pom.xml` – Maven configuration file containing project dependencies
+* `applicationContext.xml` – Spring XML file containing bean definitions
+* `BookRepository.java` – Data access repository bean class
+* `BookService.java` – Business service bean class
+* `LibraryManagementTest.java` – test class for loading the Spring context
+* `pom.xml` – Maven file containing dependencies and build settings
 
-## Approach
+## My Approach
 I configured a setter method in BookService and wired the BookRepository reference using property tags in XML.
 
 ## How to Run
@@ -18,8 +18,8 @@ I configured a setter method in BookService and wired the BookRepository referen
 mvn clean test
 ```
 
-## Result
-Spring injects the repository into the service, allowing the service to execute repository methods successfully.
+## Output
+Spring adds the repository into the service, allowing the service to execute repository methods .
 
-## What I Learned
+## What I Understood
 I learned how XML property wiring handles setter dependency injection.
